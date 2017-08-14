@@ -8,9 +8,10 @@ let dayst = (moment().isDST() ? 'is' : 'is not');
 let leapy = (moment().isLeapYear() ? 'is' : 'is not');
 
 // testing logs
-console.log('ghost toast');
-console.log('it is ' + now);
-console.log(chalk.blue('boo'));
+// console.log('ghost toast');
+// console.log('it is ' + now);
+// console.log(chalk.blue('boo'));
+
 // assignment logs
 console.log('it is ' + chalk.blue(now) + '.');
 console.log('it is the ' + chalk.magenta(today) + 'th day of the year' + '.');
